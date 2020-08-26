@@ -32,5 +32,7 @@ public class LineDrawer : MonoBehaviour
             }
             enabled = false;
         }
+
+        line.tag = "Wall";
     }
 }

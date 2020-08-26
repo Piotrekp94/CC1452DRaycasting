@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LightDrawer : MonoBehaviour
-{
+{ 
     private void Start()
     {
         LineRenderer line = GetComponent<LineRenderer>();
@@ -16,5 +16,7 @@ public class LightDrawer : MonoBehaviour
         line.SetPosition(0, mousePosition);
         line.SetPosition(1, mousePositionOffset);
     }
+
+
 }
 
